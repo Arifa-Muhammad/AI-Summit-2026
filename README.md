@@ -47,6 +47,9 @@ This is a front-end demonstration project. The event details and sample speaker 
 - Style a professional event landing page with CSS
 - Add basic client-side form interaction with JavaScript
 
+##Live website 
+https://arifa-muhammad.github.io/AI-Summit-2026/
+
 ## Author
 ARIFA MUHAMMAD
 Created as a Web Engineering lab project.
