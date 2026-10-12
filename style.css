@@ -1,0 +1,230 @@
+/* Hero Section */
+.hero-section {
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Dark overlay over the background image */
+.hero-overlay {
+    background: linear-gradient(
+        90deg,
+        rgba(8, 18, 38, 0.95),
+        rgba(8, 18, 38, 0.65)
+    );
+}
+
+/* Smooth navigation */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* About Section */
+.about-section {
+    background-color: #f7f9fc;
+}
+
+.about-intro {
+    max-width: 650px;
+}
+
+/* Feature Cards */
+.feature-card {
+    background-color: #ffffff;
+    border: 1px solid #e6ebf2;
+    border-radius: 16px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(16, 36, 64, 0.08);
+}
+
+.feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #e1f8fd;
+    color: #087990;
+    font-size: 28px;
+}
+
+/* Schedule Section */
+.schedule-section {
+    background-color: #ffffff;
+}
+
+.schedule-table-wrapper {
+    background-color: #ffffff;
+    border: 1px solid #e5eaf1;
+    border-radius: 14px;
+    box-shadow: 0 8px 28px rgba(16, 36, 64, 0.06);
+    overflow-x: auto;
+}
+
+/* Table Cells */
+.schedule-table-wrapper th,
+.schedule-table-wrapper td {
+    padding: 18px 20px;
+}
+
+/* Session Time */
+.time-badge {
+    display: inline-block;
+    background-color: #e1f8fd;
+    color: #087990;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Speakers Section */
+.speakers-section {
+    background-color: #f7f9fc;
+}
+
+/* Speaker Cards */
+.speaker-card {
+    border: 1px solid #e5eaf1;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.speaker-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 14px 32px rgba(16, 36, 64, 0.12);
+}
+
+/* Speaker Images */
+.speaker-image {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center 35%;
+}
+
+/* Speaker Card Text */
+.speaker-card .card-text {
+    color: #5c6678;
+    line-height: 1.7;
+}
+
+.speaker-card .btn {
+    border-radius: 8px;
+}
+/* Registration Section */
+.registration-section {
+    background-color: #f7f9fc;
+}
+
+.registration-card {
+    background-color: #ffffff;
+    border: 1px solid #e5eaf1;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(16, 36, 64, 0.07);
+}
+
+/* Form Controls */
+.registration-card .form-control,
+.registration-card .form-select {
+    min-height: 48px;
+    border-color: #dce3ec;
+    border-radius: 8px;
+}
+
+.registration-card .form-control:focus,
+.registration-card .form-select:focus {
+    border-color: #0dcaf0;
+    box-shadow: 0 0 0 0.2rem rgba(13, 202, 240, 0.15);
+}
+
+.registration-card .btn {
+    border-radius: 8px;
+}
+
+
+/* Footer */
+.site-footer {
+    background-color: #101c35;
+    color: #ffffff;
+}
+
+.footer-brand {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer-brand span {
+    color: #45d5ee;
+}
+
+.footer-description {
+    color: #bdc8d9;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-description a {
+    color: #45d5ee;
+    text-decoration: none;
+}
+
+.footer-description a:hover {
+    text-decoration: underline;
+}
+
+.footer-heading {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a,
+.social-links a,
+.back-to-top {
+    color: #bdc8d9;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover,
+.social-links a:hover,
+.back-to-top:hover {
+    color: #45d5ee;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 14px;
+}
+
+.footer-divider {
+    border-color: #34435c;
+    margin: 30px 0 20px;
+}
